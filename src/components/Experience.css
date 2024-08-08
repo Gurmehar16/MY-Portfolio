@@ -1,0 +1,17 @@
+.experience-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .VerticalTimeline {
+    flex: 1;
+  }
+  
+  footer {
+    margin-top: auto;
+    margin-bottom: 20px;
+
+  }
+  
