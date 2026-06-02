@@ -91,19 +91,6 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-
-Add your portfolio screenshots here.
-
-Example:
-
-* Home Section
-* Skills Section
-* Projects Section
-* Contact Section
-
----
-
 ## 🚀 Deployment
 
 This project is deployed using **Vercel**.
@@ -121,8 +108,7 @@ To deploy your own version:
 👤 Gurmehar Singh Gill
 
 * GitHub: https://github.com/Gurmehar16
-* LinkedIn: Add Your LinkedIn Link
-* Email: Add Your Email
+* Email: gurmahr.gill16@gmail.com
 
 ---
 
