@@ -12,18 +12,26 @@ const skills = [
   // Backend
   { name: "Node.js", category: "backend" },
   { name: "Express.js", category: "backend" },
-  { name: "MongoDB", category: "backend" },
-  { name: "MySQL", category: "backend" },
+
+  // Database
+  { name: "MongoDB", category: "database" },
+  { name: "MySQL", category: "database" },
+  { name: "SQL", category: "database" },
 
   // Programming
   { name: "Java", category: "programming" },
   { name: "Python", category: "programming" },
 
+  // Core CS
+  { name: "Data Structures", category: "corecs" },
+  { name: "DBMS", category: "corecs" },
+  { name: "Operating Systems", category: "corecs" },
+  { name: "Computer Networks", category: "corecs" },
+
   // Tools
   { name: "Git", category: "tools" },
   { name: "GitHub", category: "tools" },
   { name: "VS Code", category: "tools" },
-  { name: "SQL", category: "tools" },
   { name: "MS Excel", category: "tools" },
 
   // Soft Skills
@@ -34,16 +42,18 @@ const skills = [
 
   // Certifications
   { name: "Cloud Computing (NPTEL)", category: "certifications" },
-  { name: "Python for Data Science", category: "certifications" },
-  { name: "DSA in Java", category: "certifications" },
-  { name: "Full Stack Development", category: "certifications" },
+  { name: "Python for Data Science (NPTEL)", category: "certifications" },
+  { name: "DSA in Java (Udemy)", category: "certifications" },
+  { name: "Full Stack Development (Codec Technologies)", category: "certifications" },
 ];
 
 const categories = [
   "all",
+  "programming",
   "frontend",
   "backend",
-  "programming",
+  "database",
+  "corecs",
   "tools",
   "softskills",
   "certifications",
@@ -67,6 +77,12 @@ const categoryColors = {
 
   certifications:
     "bg-yellow-500/[0.03] border-yellow-500/40 hover:border-yellow-400 hover:shadow-[0_0_25px_rgba(234,179,8,0.35)]",
+
+  database:
+  "bg-blue-500/[0.03] border-blue-500/40 hover:border-blue-400 hover:shadow-[0_0_25px_rgba(59,130,246,0.35)]",
+
+  corecs:
+  "bg-red-500/[0.03] border-red-500/40 hover:border-red-400 hover:shadow-[0_0_25px_rgba(239,68,68,0.35)]",
 };
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
